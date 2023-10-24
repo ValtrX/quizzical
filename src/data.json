@@ -1,0 +1,41 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of Team Fortress 2&#039;s Heavy Weapons Guy&#039;s minigun?",
+        "correct_answer": "Sasha",
+        "incorrect_answers": [
+          "Betty",
+          "Anna",
+          "Diana"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of the largest planet in Kerbal Space Program?",
+        "correct_answer": "Jool",
+        "incorrect_answers": [
+          "Eeloo",
+          "Kerbol",
+          "Minmus"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The Khajiit are a race of cat-like creatures from which epic series of role-playing games, set across the land of Tamriel?",
+        "correct_answer": "The Elder Scrolls",
+        "incorrect_answers": [
+          "Lord of the Rings",
+          "The Witcher",
+          "Neverwinter Nights"
+        ]
+      }
+    ]
+  }
