@@ -1,4 +1,7 @@
+import he from "he";
+
 function Question(props) {
+  console.log("RENDER");
   const allOptions = props.allAnswers.map((option) => {
     let styles = {};
 
@@ -27,15 +30,14 @@ function Question(props) {
           checked={props.selectedOption === option}
           onChange={props.onOptionChange}
         />
-        {option}
+        {he.decode(option)}
       </label>
     );
   });
 
   return (
     <div>
-      <h2>{props.questionTitle}</h2>
-      {allOptions}
+      <h2>{he.decode(props.questionTitle)}</h2>{allOptions}
     </div>
   );
 }
